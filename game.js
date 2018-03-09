@@ -579,7 +579,7 @@ BigAlien = function () {
 BigAlien.prototype = new Sprite();
 
 Bullet = function () {
-  this.init("bullet", [0, 0]);
+  this.init("triangle", [0, 0]);
   this.time = 0;
   this.bridgesH = false;
   this.bridgesV = false;
